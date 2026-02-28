@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Ambassador Imperialis",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte has been trained in the subtle arts of diplomacy with alien species, combining an understanding of xenos psychology with the proper protocols for representing the authority of the Imperium. When using Interaction skills (Charm, Command, Deceive, Intimidate, Inquiry) on xenos or individuals from alien cultures, the character may substitute his Intelligence bonus for his Fellowship bonus if it is higher. Additionally, he gains a +10 bonus to Interaction tests when dealing with xenos species for which he possesses the appropriate Forbidden Lore or Scholastic Lore skill.",
+            "tier": 2,
+            "aptitudes": ["Perception", "Social"],
+            "prerequisites": "Fel 35, Int 35",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Archivaor",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "Through years of obsessive study and cross-referencing, the Acolyte has developed an extraordinary ability to absorb and recall information. Whenever the character successfully uses a Lore skill (Common Lore, Scholastic Lore, or Forbidden Lore), he gains a +10 bonus on the next Lore test he makes within the same encounter, as connections and associations between different fields of knowledge come flooding into his mind. This bonus is cumulative, to a maximum of +30.",
+            "tier": 2,
+            "aptitudes": ["Knowledge", "Perception"],
+            "prerequisites": "Int 40",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Field Vivisection",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte's extensive study of xenos anatomy allows him to exploit weak points with surgical precision. When attacking a xenos creature for which the character possesses the appropriate Forbidden Lore (Xenos) specialisation, the character's attacks gain +2 penetration and +1 damage. This talent must be taken separately for Ranged and Melee attacks.",
+            "tier": 2,
+            "aptitudes": ["Ballistic Skill", "Knowledge"],
+            "prerequisites": "BS 40 or WS 40, Forbidden Lore (Xenos), Medicae Rank 2",
+            "specialist": true,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Grenadier",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte is an expert at placing thrown and launched grenades with precision. When throwing a grenade or using a grenade launcher, the character reduces the scatter distance by a number of metres equal to his Ballistic Skill bonus. If this reduces the scatter to 0 or less, the grenade lands exactly on target. Additionally, enemies caught in the blast may not use the Dodge skill to avoid the grenade's effects.",
+            "tier": 1,
+            "aptitudes": ["Ballistic Skill", "Finesse"],
+            "prerequisites": "BS 35",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Hotshot Pilot",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte is a virtuoso behind the controls of a vehicle, capable of feats of manoeuvring that would leave lesser pilots white-knuckled and screaming. When operating a vehicle, the character may make a Challenging (+0) Operate test as a Free Action to perform an evasive manoeuvre, imposing a -20 penalty on all attacks targeting his vehicle until the start of his next turn. Additionally, the character may push a vehicle beyond its rated speed, increasing its tactical speed by half (rounded up) for one round by passing a Difficult (-10) Operate test.",
+            "tier": 2,
+            "aptitudes": ["Agility", "Tech"],
+            "prerequisites": "Operate Rank 2 or Survival Rank 2, Ag 35",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Hull Down",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte is an expert at using vehicles and terrain for maximum protection. When operating a vehicle or riding a mount, the character may count the vehicle or mount as providing one level of cover greater than it normally would (e.g., no cover becomes light cover, light becomes heavy). Additionally, the character can position a vehicle to provide cover for dismounted allies as a Half Action Operate test.",
+            "tier": 3,
+            "aptitudes": ["Agility", "Fieldcraft"],
+            "prerequisites": "Operate Rank 2 or Survival Rank 2",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Leaping Dodge",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte's reflexes are so finely honed that he can turn a desperate dodge into an acrobatic leap, carrying him clear of danger. When the character succeeds on a Dodge test, he may immediately move up to half his Agility bonus in metres in any direction as a Free Action. This movement does not provoke attacks of opportunity. If the character is Dodging a Blast or area effect attack, he may move up to his full Agility bonus in metres instead.",
+            "tier": 1,
+            "aptitudes": ["Agility", "Defence"],
+            "prerequisites": "Ag 35, Dodge Rank 2",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Lexographer",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte has an extraordinary talent for languages and communication, able to decipher alien tongues and decode unknown scripts with remarkable speed. The character can attempt to communicate basic concepts with any intelligent creature, even without sharing a language, by passing a Difficult (-10) Intelligence test. Additionally, when encountering a new language (including xenos languages), the character can gain a basic working knowledge of it after 1d5 hours of exposure and study, rather than the usual weeks or months.",
+            "tier": 2,
+            "aptitudes": ["Intelligence", "Knowledge"],
+            "prerequisites": "Linguistics Rank 3",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Push the Limit",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte knows exactly how far he can push a machine before it breaks, and he's willing to go right to the edge. Once per encounter, when operating a vehicle or controlling a mount, the character may declare he is pushing the limit. He gains a +20 bonus to the next Operate or Survival test he makes, but if he fails the test, the vehicle or mount suffers a Critical Hit as though it had taken damage equal to his degrees of failure, as systems strain and break under the pressure.",
+            "tier": 3,
+            "aptitudes": ["Perception", "Tech"],
+            "prerequisites": "Operate Rank 2 or Survival Rank 2, Tech-Use",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Skilled Rider",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte is an expert at operating vehicles and riding mounts, able to perform complex manoeuvres while simultaneously carrying out other tasks. While operating a vehicle or riding a mount, the character may take a Half Action to do something other than control the vehicle (such as firing a weapon or using a skill) without needing to make an Operate or Survival test to maintain control. Additionally, mounting or dismounting a vehicle or mount is a Free Action rather than a Half Action.",
+            "tier": 1,
+            "aptitudes": ["Agility", "Fieldcraft"],
+            "prerequisites": "Operate Rank 2",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Weapon Intuition",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "Through long exposure to exotic weaponry, the Acolyte has developed an intuitive understanding of how unfamiliar weapons function. The character may use any Exotic weapon without the appropriate Exotic Weapon Training talent, though he suffers a -10 penalty to hit instead of the usual -20. If he does possess the appropriate Exotic Weapon Training, he gains a +10 bonus to hit with that weapon instead, as his deep familiarity allows him to exploit its full capabilities.",
+            "tier": 3,
+            "aptitudes": ["Intelligence", "Finesse"],
+            "prerequisites": "Exotic Weapon Training (any)",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Xenosavant",
+        "type": "talent",
+        "img": "systems/dh2e/icons/items/talent.svg",
+        "system": {
+            "description": "The Acolyte's knowledge of xenos species is encyclopaedic, granting him practical advantages when dealing with alien threats. When facing a xenos species for which the character possesses Forbidden Lore (Xenos) at Rank 3 or higher, he may spend a Full Action to study the creature and pass a Difficult (-10) Intelligence test. On a success, he identifies one weakness, vulnerability, or tactical advantage per degree of success, which he can share with his allies. These insights grant a +10 bonus to relevant tests against that species for the remainder of the encounter.",
+            "tier": 2,
+            "aptitudes": ["Intelligence", "Knowledge"],
+            "prerequisites": "Forbidden Lore (Xenos) Rank 3",
+            "specialist": false,
+            "rules": [],
+            "source": "enemies-without"
+        }
+    }
+]

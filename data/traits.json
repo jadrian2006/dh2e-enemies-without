@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Chameleonic Skin",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature's skin or surface can shift colour and pattern to blend with its surroundings, making it extremely difficult to detect. The creature gains a +30 bonus to Stealth tests. Attackers who cannot detect the creature suffer a -30 penalty to Ballistic Skill and Weapon Skill tests against it.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "physical",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Eater of the Dead",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature consumes the flesh of the dead to gain sustenance and, in some cases, the memories and abilities of the consumed. After spending at least one hour consuming a corpse, the creature regains 1d10 wounds and may, at the GM's discretion, gain fragments of the deceased's knowledge or skills for a limited time.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "physical",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Shadow Strike",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature can strike from shadows with supernatural speed and precision. On the first round of combat, the creature gains +2 degrees of success on melee attacks if it was not detected by its target before the attack. Additionally, the creature may disengage from melee as a Free Action.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "physical",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Power from Pain",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The Dark Eldar draws sustenance and power from the suffering of others. For each enemy that has been wounded or killed within 10 metres during the current encounter, the creature gains a cumulative +5 bonus (to a maximum of +20) to all Weapon Skill and Ballistic Skill tests and becomes immune to Fear and Pinning.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "mental",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Berserker",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature enters a frenzied state in combat, attacking with reckless abandon and ignoring wounds that would fell a lesser being. While in combat, the creature gains the effects of Frenzy without needing to take an action to activate it. It may not retreat or flee from combat willingly.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "mental",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Mob Rule",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature is emboldened by the presence of others of its kind. For every 5 allies of the same type within 10 metres, the creature gains a +10 bonus to Willpower tests to resist Fear, Pinning, and attempts to break its morale. If the number of allies drops below 5, the creature must pass a Willpower test or flee.",
+            "rules": [],
+            "hasRating": true,
+            "rating": 0,
+            "category": "mental",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Soaring",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature is adapted for sustained high-altitude or high-speed flight. It can fly at double its normal movement rate and gains a +20 bonus to all Dodge tests while airborne. It does not suffer penalties for high-speed aerial manoeuvres.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "physical",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Venomous",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature's natural weapons deliver a potent venom in addition to their physical damage. On a successful melee attack, the target must pass a Toughness test or suffer an additional 1d10 Toughness damage (ignoring Armour and Toughness bonus) as the venom takes effect. The difficulty of the Toughness test depends on the creature's rating.",
+            "rules": [],
+            "hasRating": true,
+            "rating": 0,
+            "category": "physical",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Wraithsight",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The Wraithbone construct perceives the world through the psychic impressions of the spirit stone within it. Without a psyker guide nearby, the construct's awareness is limited and unfocused. If no friendly psyker is within 20 metres, the construct suffers a -20 penalty to all Perception-based tests and Ballistic Skill tests, and must pass a Willpower test each round or take no action.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "mental",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Holo-field",
+        "type": "trait",
+        "img": "systems/dh2e/icons/default-icons/trait.svg",
+        "system": {
+            "description": "The creature is equipped with or naturally projects a holographic disruption field that makes it extremely difficult to target. All ranged attacks against the creature suffer a -20 penalty to Ballistic Skill. In melee, the attacker suffers a -10 penalty to Weapon Skill tests. The field does not function if the creature is Stunned or otherwise immobilised.",
+            "rules": [],
+            "hasRating": false,
+            "rating": 0,
+            "category": "physical",
+            "source": "enemies-without"
+        }
+    }
+]

@@ -1,0 +1,115 @@
+{
+    "id": "dh2e-enemies-without",
+    "title": "DH2E - Enemies Without Data",
+    "description": "Compendium data for Dark Heresy 2nd Edition: Enemies Without supplement. Contains new homeworlds, backgrounds, roles, talents, weapons, gear, traits, and NPCs from the Enemies Without sourcebook. FOR PERSONAL USE ONLY.",
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": "13.348",
+        "verified": "13.351",
+        "maximum": "13"
+    },
+    "authors": [
+        {
+            "name": "jadrian2006"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dh2e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "0.1.0"
+                }
+            }
+        ]
+    },
+    "packFolders": [
+        {
+            "name": "EWO Equipment",
+            "color": "#2d6b4e",
+            "packs": ["weapons", "gear"]
+        },
+        {
+            "name": "EWO Character",
+            "color": "#2d6b4e",
+            "packs": ["talents", "traits"]
+        },
+        {
+            "name": "EWO Creation",
+            "color": "#2d6b4e",
+            "packs": ["homeworlds", "backgrounds", "roles"]
+        },
+        {
+            "name": "EWO Actors",
+            "color": "#2d6b4e",
+            "packs": ["npcs"]
+        }
+    ],
+    "packs": [
+        {
+            "name": "homeworlds",
+            "label": "EWO Homeworlds",
+            "path": "packs/homeworlds",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "backgrounds",
+            "label": "EWO Backgrounds",
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "roles",
+            "label": "EWO Roles",
+            "path": "packs/roles",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "talents",
+            "label": "EWO Talents",
+            "path": "packs/talents",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "weapons",
+            "label": "EWO Weapons",
+            "path": "packs/weapons",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "gear",
+            "label": "EWO Gear",
+            "path": "packs/gear",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "traits",
+            "label": "EWO Traits",
+            "path": "packs/traits",
+            "type": "Item",
+            "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        },
+        {
+            "name": "npcs",
+            "label": "EWO NPCs",
+            "path": "packs/npcs",
+            "type": "Actor",
+            "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" },
+            "system": "dh2e"
+        }
+    ]
+}

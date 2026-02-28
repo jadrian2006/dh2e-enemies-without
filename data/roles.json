@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Ace",
+        "type": "role",
+        "img": "systems/dh2e/icons/default-icons/role.svg",
+        "system": {
+            "description": "Whether piloting a screaming Fury interceptor through an asteroid field, guiding a battered Chimera through enemy fire, or riding a half-broken grox across a death world wilderness, the Ace is in his element when commanding a vehicle or mount. For the Ace, machines and beasts are extensions of the self, responding to the lightest touch and the subtlest command. He possesses an almost preternatural instinct for speed, trajectory, and the limits of his craft, pushing vehicles and mounts beyond what others believe possible. In the service of the Inquisition, an Ace provides mobility, rapid extraction, and the ability to pursue or flee as the situation demands. Whether the mission calls for a daring orbital insertion, a high-speed chase through a hive's underbelly, or a mounted pursuit across alien terrain, the Ace ensures his warband arrives where they need to be—alive and on time.",
+            "aptitudes": [
+                "Agility",
+                "Finesse",
+                "Perception",
+                "Tech",
+                "Willpower"
+            ],
+            "talent": "Hard Target or Hotshot Pilot",
+            "bonus": "Right Stuff",
+            "bonusDescription": "In addition to the normal uses of Fate points, an Ace character may spend a Fate point to automatically succeed on an Operate or Survival test involving the control of a vehicle or mount, with a number of degrees of success equal to his Agility bonus.",
+            "source": "enemies-without"
+        }
+    }
+]

@@ -1,0 +1,2290 @@
+[
+    {
+        "name": "Ork Boy",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 25, "advances": 0 },
+                "s": { "base": 45, "advances": 0 },
+                "t": { "base": 45, "advances": 0 },
+                "ag": { "base": 30, "advances": 0 },
+                "int": { "base": 20, "advances": 0 },
+                "per": { "base": 30, "advances": 0 },
+                "wp": { "base": 35, "advances": 0 },
+                "fel": { "base": 25, "advances": 0 }
+            },
+            "wounds": { "value": 15, "max": 15 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 2,
+                "rightArm": 2,
+                "leftArm": 2,
+                "body": 3,
+                "rightLeg": 2,
+                "leftLeg": 2
+            },
+            "details": {
+                "homeworld": "Gregorn",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Traits: Mob Rule, Sturdy, Unnatural Strength (3), Unnatural Toughness (3). Skills: Athletics, Intimidate, Survival. Talents: Berserk Charge, Street Fighting, True Grit. Mob Rule: +10 WP per 5 Ork allies within 10m. Da Orkish Way: When making All Out Attack or Charge, gains +2 damage on first hit."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Slugga",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 20,
+                    "rof": { "single": true, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "impact", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 3,
+                    "qualities": ["Inaccurate", "Unreliable"],
+                    "equipped": true,
+                    "weaponGroup": "solid-projectile",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 12, "max": 12 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Choppa",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 4,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Stikkbomb",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "2d10", "type": "explosive", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 0.5,
+                    "qualities": ["Blast (3)", "Inaccurate"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 1, "max": 1 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ork Nob",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 50, "advances": 0 },
+                "bs": { "base": 30, "advances": 0 },
+                "s": { "base": 55, "advances": 0 },
+                "t": { "base": 55, "advances": 0 },
+                "ag": { "base": 30, "advances": 0 },
+                "int": { "base": 25, "advances": 0 },
+                "per": { "base": 30, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 30, "advances": 0 }
+            },
+            "wounds": { "value": 30, "max": 30 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 5,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Gregorn",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Traits: Fear (1), Mob Rule, Size (Hulking), Sturdy, Unnatural Strength (4), Unnatural Toughness (4). Skills: Athletics +10, Command, Intimidate +20, Survival. Talents: Berserk Charge, Crushing Blow, Iron Jaw, Swift Attack, True Grit. Might Makes Right: All Orks within 20m must obey or challenge the Nob. Challenge is a WS opposed test; loser takes 2d10+SB I damage."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Big Choppa",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "2d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 2,
+                    "weight": 8,
+                    "qualities": ["Tearing", "Unbalanced"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Slugga",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 20,
+                    "rof": { "single": true, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "impact", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 3,
+                    "qualities": ["Inaccurate", "Unreliable"],
+                    "equipped": true,
+                    "weaponGroup": "solid-projectile",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 12, "max": 12 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Freebootа",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 45, "advances": 0 },
+                "bs": { "base": 35, "advances": 0 },
+                "s": { "base": 50, "advances": 0 },
+                "t": { "base": 50, "advances": 0 },
+                "ag": { "base": 35, "advances": 0 },
+                "int": { "base": 25, "advances": 0 },
+                "per": { "base": 35, "advances": 0 },
+                "wp": { "base": 35, "advances": 0 },
+                "fel": { "base": 30, "advances": 0 }
+            },
+            "wounds": { "value": 22, "max": 22 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 4,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Gregorn",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Traits: Sturdy, Unnatural Strength (3), Unnatural Toughness (3). Skills: Athletics, Awareness, Intimidate +10, Navigate (Surface), Operate (Voidship), Survival. Talents: Berserk Charge, Hip Shooting, Two-Weapon Wielder (Ballistic). Flash Gitz: May fire two ranged weapons in the same turn without penalty."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Shoota",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 40,
+                    "rof": { "single": true, "semi": 0, "full": 4 },
+                    "damage": { "formula": "1d10+4", "type": "impact", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 5,
+                    "qualities": ["Inaccurate", "Unreliable"],
+                    "equipped": true,
+                    "weaponGroup": "solid-projectile",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 30, "max": 30 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Choppa",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 4,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gregornian Warrior",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 35, "advances": 0 },
+                "bs": { "base": 30, "advances": 0 },
+                "s": { "base": 35, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 30, "advances": 0 },
+                "int": { "base": 25, "advances": 0 },
+                "per": { "base": 30, "advances": 0 },
+                "wp": { "base": 30, "advances": 0 },
+                "fel": { "base": 25, "advances": 0 }
+            },
+            "wounds": { "value": 10, "max": 10 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 2,
+                "rightArm": 2,
+                "leftArm": 2,
+                "body": 3,
+                "rightLeg": 2,
+                "leftLeg": 2
+            },
+            "details": {
+                "homeworld": "Gregorn",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Human inhabitants of Gregorn, hardened by constant warfare with Orks. Skills: Athletics, Awareness, Dodge, Survival +10. Talents: Rapid Reload, Resistance (Fear). Desperate Fighters: +10 WS and WP when outnumbered."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Autogun",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 100,
+                    "rof": { "single": true, "semi": 3, "full": 0 },
+                    "damage": { "formula": "1d10+3", "type": "impact", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 5,
+                    "qualities": [],
+                    "equipped": true,
+                    "weaponGroup": "solid-projectile",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 30, "max": 30 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Sword",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10", "type": "rending", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 3,
+                    "qualities": ["Balanced"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Gula Beast",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 0, "advances": 0 },
+                "s": { "base": 50, "advances": 0 },
+                "t": { "base": 45, "advances": 0 },
+                "ag": { "base": 35, "advances": 0 },
+                "int": { "base": 10, "advances": 0 },
+                "per": { "base": 40, "advances": 0 },
+                "wp": { "base": 25, "advances": 0 },
+                "fel": { "base": 5, "advances": 0 }
+            },
+            "wounds": { "value": 18, "max": 18 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 3,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Gregorn",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "A massive, armoured predator native to Gregorn. Traits: Bestial, Brutal Charge (3), Deadly Natural Weapons, Natural Armour (3), Quadruped, Size (Hulking), Sturdy. Skills: Athletics +10, Awareness, Survival +20. Pack Instinct: +10 WS for every other Gula Beast within 5m."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Crushing Jaws",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+5", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 0,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Misshapen Ork Boy",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 38, "advances": 0 },
+                "bs": { "base": 20, "advances": 0 },
+                "s": { "base": 42, "advances": 0 },
+                "t": { "base": 42, "advances": 0 },
+                "ag": { "base": 25, "advances": 0 },
+                "int": { "base": 15, "advances": 0 },
+                "per": { "base": 25, "advances": 0 },
+                "wp": { "base": 30, "advances": 0 },
+                "fel": { "base": 15, "advances": 0 }
+            },
+            "wounds": { "value": 14, "max": 14 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 10,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 1,
+                "rightArm": 2,
+                "leftArm": 2,
+                "body": 2,
+                "rightLeg": 1,
+                "leftLeg": 1
+            },
+            "details": {
+                "homeworld": "Vouxis Prime",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Orks twisted by exposure to warp-tainted xenos artefacts on Vouxis Prime. Traits: Mob Rule, Sturdy, Unnatural Strength (3), Unnatural Toughness (3). Skills: Athletics, Intimidate, Survival. Warp-Touched: Immune to Fear caused by Daemons and warp phenomena. Roll 1d10 at start of each encounter: on a 1, the Ork gains a random mutation for the duration."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Choppa",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 4,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "poor",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Misshapen Ork Brute",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 48, "advances": 0 },
+                "bs": { "base": 20, "advances": 0 },
+                "s": { "base": 58, "advances": 0 },
+                "t": { "base": 58, "advances": 0 },
+                "ag": { "base": 25, "advances": 0 },
+                "int": { "base": 10, "advances": 0 },
+                "per": { "base": 25, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 10, "advances": 0 }
+            },
+            "wounds": { "value": 35, "max": 35 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 25,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 5,
+                "leftArm": 5,
+                "body": 6,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Vouxis Prime",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Massive Ork mutants warped beyond recognition. Traits: Berserker, Fear (2), Size (Hulking), Sturdy, Unnatural Strength (5), Unnatural Toughness (5). Skills: Athletics +10, Intimidate +20. Talents: Crushing Blow, Iron Jaw, True Grit. Warp Fury: On Critical damage, gains +10 WS and +2 damage for rest of encounter."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Massive Fists",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "2d10+3", "type": "impact", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 0,
+                    "qualities": ["Concussive (2)"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Render",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 55, "advances": 0 },
+                "bs": { "base": 0, "advances": 0 },
+                "s": { "base": 60, "advances": 0 },
+                "t": { "base": 55, "advances": 0 },
+                "ag": { "base": 40, "advances": 0 },
+                "int": { "base": 15, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 30, "advances": 0 },
+                "fel": { "base": 5, "advances": 0 }
+            },
+            "wounds": { "value": 30, "max": 30 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 5,
+                "rightArm": 5,
+                "leftArm": 5,
+                "body": 6,
+                "rightLeg": 5,
+                "leftLeg": 5
+            },
+            "details": {
+                "homeworld": "Yanth",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Apex predator of the death world Yanth. Traits: Bestial, Brutal Charge (4), Deadly Natural Weapons, Fear (2), Natural Armour (5), Size (Hulking), Unnatural Strength (4), Unnatural Toughness (3). Skills: Athletics +20, Awareness +10, Stealth +10, Survival +20. Alpha Predator: May charge through difficult terrain without penalty. On a successful Charge, target must pass Challenging WP test or be Stunned for 1 round."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Razor Claws",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "2d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 0,
+                    "qualities": ["Razor Sharp", "Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Enveloper",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 35, "advances": 0 },
+                "bs": { "base": 0, "advances": 0 },
+                "s": { "base": 45, "advances": 0 },
+                "t": { "base": 40, "advances": 0 },
+                "ag": { "base": 25, "advances": 0 },
+                "int": { "base": 5, "advances": 0 },
+                "per": { "base": 35, "advances": 0 },
+                "wp": { "base": 20, "advances": 0 },
+                "fel": { "base": 5, "advances": 0 }
+            },
+            "wounds": { "value": 20, "max": 20 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 2,
+                "rightArm": 2,
+                "leftArm": 2,
+                "body": 2,
+                "rightLeg": 2,
+                "leftLeg": 2
+            },
+            "details": {
+                "homeworld": "Yanth",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "An ambush predator that drops from above to engulf prey. Traits: Bestial, Chameleonic Skin, Crawler, Fear (1), Natural Armour (2), Toxic (3). Skills: Awareness +10, Stealth +30. Engulf: On a successful grapple, target is completely enveloped. Enveloped targets take 1d10+4 R damage per round (ignoring armour) from digestive acids."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Smothering Embrace",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 0,
+                    "qualities": ["Snare (2)", "Toxic (3)"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Razorclaw Beetle",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 30, "advances": 0 },
+                "bs": { "base": 0, "advances": 0 },
+                "s": { "base": 25, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 40, "advances": 0 },
+                "int": { "base": 5, "advances": 0 },
+                "per": { "base": 30, "advances": 0 },
+                "wp": { "base": 15, "advances": 0 },
+                "fel": { "base": 5, "advances": 0 }
+            },
+            "wounds": { "value": 6, "max": 6 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Yanth",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Small, heavily-armoured insects that attack in swarms. Traits: Bestial, Crawler, Natural Armour (4), Size (Scrawny). Skills: Awareness, Stealth +10. Swarm: For every 3 additional beetles within 2m, attacks gain +1 damage. In groups of 10+, count as a single entity with combined wounds."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Razor Mandibles",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d5+2", "type": "rending", "bonus": 0 },
+                    "penetration": 2,
+                    "weight": 0,
+                    "qualities": ["Razor Sharp"],
+                    "equipped": true,
+                    "weaponGroup": "low-tech",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kroot Mercenary",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 45, "advances": 0 },
+                "bs": { "base": 35, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 40, "advances": 0 },
+                "int": { "base": 25, "advances": 0 },
+                "per": { "base": 40, "advances": 0 },
+                "wp": { "base": 30, "advances": 0 },
+                "fel": { "base": 20, "advances": 0 }
+            },
+            "wounds": { "value": 14, "max": 14 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 1,
+                "rightArm": 1,
+                "leftArm": 1,
+                "body": 2,
+                "rightLeg": 1,
+                "leftLeg": 1
+            },
+            "details": {
+                "homeworld": "Pech",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Traits: Eater of the Dead, Natural Weapons, Unnatural Agility (2). Skills: Acrobatics +10, Athletics, Awareness +10, Dodge, Navigate (Surface), Stealth +20, Survival +10. Talents: Furious Assault, Swift Attack. Fieldcraft: +20 Stealth in natural environments. Kroot may consume freshly dead enemies to gain fragments of their knowledge."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Kroot Rifle",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 110,
+                    "rof": { "single": true, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+5", "type": "impact", "bonus": 0 },
+                    "penetration": 1,
+                    "weight": 4,
+                    "qualities": [],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 6, "max": 6 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Kroot Rifle (Blades)",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+3", "type": "rending", "bonus": 0 },
+                    "penetration": 0,
+                    "weight": 0,
+                    "qualities": ["Balanced"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kroot Shaper",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 50, "advances": 0 },
+                "bs": { "base": 40, "advances": 0 },
+                "s": { "base": 45, "advances": 0 },
+                "t": { "base": 40, "advances": 0 },
+                "ag": { "base": 45, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 30, "advances": 0 }
+            },
+            "wounds": { "value": 22, "max": 22 },
+            "fate": { "value": 2, "max": 2 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 2,
+                "rightArm": 2,
+                "leftArm": 2,
+                "body": 3,
+                "rightLeg": 2,
+                "leftLeg": 2
+            },
+            "details": {
+                "homeworld": "Pech",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "The leaders and spiritual guides of Kroot kindreds. Traits: Eater of the Dead, Natural Weapons, Unnatural Agility (3). Skills: Acrobatics +10, Athletics +10, Awareness +20, Command +10, Dodge +10, Navigate (Surface) +10, Stealth +20, Survival +20. Talents: Crushing Blow, Furious Assault, Lightning Reflexes, Swift Attack. Shaper's Guidance: All Kroot within 20m gain +10 WS and WP. Shape the Flesh: After eating a creature, the Shaper may direct genetic adaptations in the kindred."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Kroot Rifle",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 110,
+                    "rof": { "single": true, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+5", "type": "impact", "bonus": 0 },
+                    "penetration": 1,
+                    "weight": 4,
+                    "qualities": [],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 6, "max": 6 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Striking Scorpion",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 55, "advances": 0 },
+                "bs": { "base": 45, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 55, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 50, "advances": 0 },
+                "wp": { "base": 45, "advances": 0 },
+                "fel": { "base": 30, "advances": 0 }
+            },
+            "wounds": { "value": 18, "max": 18 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 6,
+                "rightArm": 6,
+                "leftArm": 6,
+                "body": 6,
+                "rightLeg": 6,
+                "leftLeg": 6
+            },
+            "details": {
+                "homeworld": "Craftworld Miandrothe",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Eldar Aspect Warriors specialising in close combat and infiltration. Traits: Fear (1), Shadow Strike, Unnatural Agility (3). Skills: Acrobatics +20, Athletics +10, Awareness +10, Dodge +20, Stealth +30. Talents: Ambidextrous, Assassin Strike, Lightning Attack, Swift Attack, Two-Weapon Wielder (Melee). Mandiblasters: At start of melee, inflict 1d10+2 E Pen 4 as a Free Action."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Scorpion Chainsword",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 3,
+                    "qualities": ["Balanced", "Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "chain",
+                    "craftsmanship": "good",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 1.5,
+                    "qualities": ["Reliable"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 20, "max": 20 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Windrider",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 50, "advances": 0 },
+                "s": { "base": 30, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 55, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 35, "advances": 0 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Craftworld Miandrothe",
+                "background": "",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Eldar jetbike riders. Traits: Unnatural Agility (2). Skills: Awareness +10, Dodge +10, Operate (Aeronautica) +20. Talents: Hard Target. Jetbike: Tactical Speed 25, AB 12, Armour 15, Integrity 15. Twin-linked shuriken catapults mounted. Hit and Run: May fire and immediately move full speed as a single Full Action."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Shuriken Catapult (Twin-linked)",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 60,
+                    "rof": { "single": true, "semi": 3, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 0,
+                    "qualities": ["Reliable", "Twin-linked"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 80, "max": 80 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Spiritseer",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 40, "advances": 0 },
+                "s": { "base": 30, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 50, "advances": 0 },
+                "int": { "base": 55, "advances": 0 },
+                "per": { "base": 55, "advances": 0 },
+                "wp": { "base": 65, "advances": 0 },
+                "fel": { "base": 45, "advances": 0 }
+            },
+            "wounds": { "value": 18, "max": 18 },
+            "fate": { "value": 3, "max": 3 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 5,
+                "rightArm": 5,
+                "leftArm": 5,
+                "body": 5,
+                "rightLeg": 5,
+                "leftLeg": 5
+            },
+            "details": {
+                "homeworld": "Craftworld Miandrothe",
+                "background": "",
+                "role": "Master",
+                "divination": "",
+                "notes": "Eldar psykers who commune with the dead and guide Wraith constructs. Traits: Psyker (PR 5), Unnatural Agility (2), Unnatural Willpower (3). Skills: Awareness +20, Dodge +10, Forbidden Lore (Warp) +20, Psyniscience +30. Talents: Warp Sense. Psychic Powers: Telepathy, Divination. Spirit Guide: All Wraith constructs within 30m ignore Wraithsight penalties. Spirit Mark: Full Action; target enemy gains -20 to dodge Wraith construct attacks for 1d5 rounds."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Witch Staff",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "energy", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 2,
+                    "qualities": ["Force"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 1.5,
+                    "qualities": ["Reliable"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 20, "max": 20 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wraithguard",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 40, "advances": 0 },
+                "s": { "base": 60, "advances": 0 },
+                "t": { "base": 60, "advances": 0 },
+                "ag": { "base": 25, "advances": 0 },
+                "int": { "base": 20, "advances": 0 },
+                "per": { "base": 30, "advances": 0 },
+                "wp": { "base": 50, "advances": 0 },
+                "fel": { "base": 10, "advances": 0 }
+            },
+            "wounds": { "value": 30, "max": 30 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 10,
+                "rightArm": 10,
+                "leftArm": 10,
+                "body": 10,
+                "rightLeg": 10,
+                "leftLeg": 10
+            },
+            "details": {
+                "homeworld": "Craftworld Miandrothe",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Wraithbone constructs animated by Eldar spirit stones. Traits: Fear (2), Machine (10), Size (Hulking), Stuff of Nightmares, Unnatural Strength (5), Unnatural Toughness (5), Wraithsight. Skills: Awareness. Wraithcannon inflicts damage directly to the target's spirit."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Wraithcannon",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 40,
+                    "rof": { "single": true, "semi": 0, "full": 0 },
+                    "damage": { "formula": "3d10+5", "type": "energy", "bonus": 0 },
+                    "penetration": 15,
+                    "weight": 0,
+                    "qualities": ["Felling (4)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Kabalite Warrior",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 42, "advances": 0 },
+                "bs": { "base": 42, "advances": 0 },
+                "s": { "base": 32, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 50, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 35, "advances": 0 },
+                "fel": { "base": 25, "advances": 0 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 4,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Standard Dark Eldar foot soldiers. Traits: Dark-sight, Power from Pain, Unnatural Agility (2). Skills: Acrobatics, Athletics, Awareness +10, Dodge +10, Stealth +10. Talents: Rapid Reaction. Night Vision: No penalties from darkness."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Splinter Rifle",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 80,
+                    "rof": { "single": true, "semi": 3, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 3,
+                    "qualities": ["Toxic (1)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 80, "max": 80 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wych",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 55, "advances": 0 },
+                "bs": { "base": 40, "advances": 0 },
+                "s": { "base": 35, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 60, "advances": 0 },
+                "int": { "base": 30, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 40, "advances": 0 }
+            },
+            "wounds": { "value": 14, "max": 14 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 2,
+                "rightArm": 2,
+                "leftArm": 2,
+                "body": 2,
+                "rightLeg": 2,
+                "leftLeg": 2
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Arena gladiators and close combat specialists of the Dark Eldar. Traits: Dark-sight, Power from Pain, Unnatural Agility (3). Skills: Acrobatics +30, Athletics +20, Dodge +30. Talents: Ambidextrous, Combat Master, Lightning Attack, Swift Attack, Two-Weapon Wielder (Melee). Dodge This: May test Dodge against melee attacks as a Free Action."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Hydra Gauntlets",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 1,
+                    "qualities": ["Razor Sharp", "Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Splinter Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 25,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+1", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 1,
+                    "qualities": ["Toxic (1)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 40, "max": 40 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Incubus",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 60, "advances": 0 },
+                "bs": { "base": 35, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 55, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 50, "advances": 0 },
+                "fel": { "base": 20, "advances": 0 }
+            },
+            "wounds": { "value": 20, "max": 20 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 7,
+                "rightArm": 7,
+                "leftArm": 7,
+                "body": 7,
+                "rightLeg": 7,
+                "leftLeg": 7
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Elite Dark Eldar warrior-monks. Traits: Dark-sight, Fear (2), Fearless, Unnatural Agility (3). Skills: Acrobatics +10, Athletics +10, Awareness +10, Dodge +20, Parry +20. Talents: Crushing Blow, Lightning Attack, Swift Attack. Killing Strike: May spend a Full Action to make a single melee attack with +4 Pen and Felling (2)."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Klaive",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+6", "type": "rending", "bonus": 0 },
+                    "penetration": 5,
+                    "weight": 3,
+                    "qualities": ["Balanced", "Power Field"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "good",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Mandrake",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 50, "advances": 0 },
+                "bs": { "base": 30, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 55, "advances": 0 },
+                "int": { "base": 25, "advances": 0 },
+                "per": { "base": 50, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 10, "advances": 0 }
+            },
+            "wounds": { "value": 16, "max": 16 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Shadow-dwelling Dark Eldar connected to the warp. Traits: Chameleonic Skin, Dark-sight, Fear (2), From Beyond, Shadow Strike, Unnatural Agility (3). Skills: Acrobatics +20, Awareness +10, Dodge +10, Stealth +30. Talents: Assassin Strike. Balefire: As a Half Action, project a blast of dark flame: 1d10+4 E Pen 4 range 20m. Shrouded: Ranged attacks against Mandrakes suffer -30 unless the attacker can see in darkness."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Glimmersteel Blade",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 1,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Wrack",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 35, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 40, "advances": 0 },
+                "ag": { "base": 40, "advances": 0 },
+                "int": { "base": 30, "advances": 0 },
+                "per": { "base": 35, "advances": 0 },
+                "wp": { "base": 35, "advances": 0 },
+                "fel": { "base": 15, "advances": 0 }
+            },
+            "wounds": { "value": 16, "max": 16 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 4,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Surgically modified servants of the Haemonculi. Traits: Dark-sight, Fear (1), Power from Pain, Unnatural Toughness (2). Skills: Awareness, Medicae +10. Talents: Resistance (Poison), True Grit. Acothyst Tools: Wrack melee attacks inflict Toxic (2). Resilient Flesh: Ignore first Critical wound each encounter."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Haemonculus Tools",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+3", "type": "rending", "bonus": 0 },
+                    "penetration": 2,
+                    "weight": 2,
+                    "qualities": ["Toxic (2)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Splinter Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 25,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+1", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 1,
+                    "qualities": ["Toxic (1)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 40, "max": 40 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Archon",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 65, "advances": 0 },
+                "bs": { "base": 55, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 65, "advances": 0 },
+                "int": { "base": 55, "advances": 0 },
+                "per": { "base": 55, "advances": 0 },
+                "wp": { "base": 55, "advances": 0 },
+                "fel": { "base": 50, "advances": 0 }
+            },
+            "wounds": { "value": 25, "max": 25 },
+            "fate": { "value": 4, "max": 4 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 6,
+                "rightArm": 6,
+                "leftArm": 6,
+                "body": 7,
+                "rightLeg": 6,
+                "leftLeg": 6
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Master",
+                "divination": "",
+                "notes": "The supreme ruler of a Dark Eldar Kabal. Traits: Dark-sight, Fear (3), Holo-field, Power from Pain, Unnatural Agility (4). Skills: Acrobatics +20, Athletics +10, Awareness +20, Command +20, Deceive +20, Dodge +30, Intimidate +30, Parry +20. Talents: Assassin Strike, Combat Master, Lightning Attack, Step Aside, Swift Attack. Soul Trap: On killing a foe, regains 1d5 wounds. Overlord: All Dark Eldar within 30m gain +10 WS and +10 BS."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Huskblade",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+7", "type": "rending", "bonus": 0 },
+                    "penetration": 8,
+                    "weight": 2,
+                    "qualities": ["Balanced", "Power Field", "Toxic (4)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "good",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Splinter Pistol (Master-crafted)",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": { "single": true, "semi": 3, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 1,
+                    "qualities": ["Reliable", "Toxic (2)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "good",
+                    "magazine": { "value": 60, "max": 60 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Succubus",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 70, "advances": 0 },
+                "bs": { "base": 40, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 70, "advances": 0 },
+                "int": { "base": 40, "advances": 0 },
+                "per": { "base": 50, "advances": 0 },
+                "wp": { "base": 50, "advances": 0 },
+                "fel": { "base": 55, "advances": 0 }
+            },
+            "wounds": { "value": 22, "max": 22 },
+            "fate": { "value": 3, "max": 3 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 3,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Master",
+                "divination": "",
+                "notes": "Leader of a Wych Cult, the deadliest melee combatants among the Dark Eldar. Traits: Dark-sight, Fear (2), Power from Pain, Unnatural Agility (4). Skills: Acrobatics +30, Athletics +20, Charm +10, Dodge +30, Parry +30. Talents: Ambidextrous, Assassin Strike, Blademaster, Combat Master, Counter-Attack, Lightning Attack, Step Aside, Swift Attack, Two-Weapon Wielder (Melee). No Escape: Enemies may not Disengage from melee with the Succubus."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Agoniser",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 6,
+                    "weight": 2,
+                    "qualities": ["Flexible", "Toxic (4)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Archite Glaive",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+5", "type": "energy", "bonus": 0 },
+                    "penetration": 5,
+                    "weight": 3,
+                    "qualities": ["Power Field"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Haemonculus",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 45, "advances": 0 },
+                "bs": { "base": 45, "advances": 0 },
+                "s": { "base": 35, "advances": 0 },
+                "t": { "base": 45, "advances": 0 },
+                "ag": { "base": 50, "advances": 0 },
+                "int": { "base": 60, "advances": 0 },
+                "per": { "base": 50, "advances": 0 },
+                "wp": { "base": 55, "advances": 0 },
+                "fel": { "base": 20, "advances": 0 }
+            },
+            "wounds": { "value": 25, "max": 25 },
+            "fate": { "value": 3, "max": 3 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 5,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Master",
+                "divination": "",
+                "notes": "Dark Eldar flesh-sculptors and masters of agony. Traits: Dark-sight, Fear (3), Power from Pain, Regeneration (5), Unnatural Toughness (3). Skills: Awareness +10, Forbidden Lore (Xenos) +20, Medicae +30. Talents: Resistance (Poison), True Grit. Master of Pain: All Toxic effects from Dark Eldar weapons within 20m gain +1 to their Toxic rating. Reknit Flesh: As a Full Action, restore 1d10 wounds to a single Dark Eldar target within 5m."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Scissorhand",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+5", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 2,
+                    "qualities": ["Razor Sharp", "Toxic (3)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Harlequin Player",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 55, "advances": 0 },
+                "bs": { "base": 50, "advances": 0 },
+                "s": { "base": 35, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 60, "advances": 0 },
+                "int": { "base": 45, "advances": 0 },
+                "per": { "base": 50, "advances": 0 },
+                "wp": { "base": 50, "advances": 0 },
+                "fel": { "base": 45, "advances": 0 }
+            },
+            "wounds": { "value": 15, "max": 15 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 3,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Webway",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Eldar Harlequins — warrior-performers of the Laughing God. Traits: Fear (1), Fearless, Holo-field, Unnatural Agility (3). Skills: Acrobatics +30, Athletics +20, Awareness +10, Dodge +20, Perform +20. Talents: Ambidextrous, Assassin Strike, Combat Master, Lightning Attack, Swift Attack, Two-Weapon Wielder (Melee). Flip Belt: Ignores terrain and obstacles, may leap up to 6m vertically."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Harlequin's Kiss",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+6", "type": "rending", "bonus": 0 },
+                    "penetration": 10,
+                    "weight": 1,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 1.5,
+                    "qualities": ["Reliable"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 20, "max": 20 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Troupe Leader",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 65, "advances": 0 },
+                "bs": { "base": 55, "advances": 0 },
+                "s": { "base": 40, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 65, "advances": 0 },
+                "int": { "base": 50, "advances": 0 },
+                "per": { "base": 55, "advances": 0 },
+                "wp": { "base": 55, "advances": 0 },
+                "fel": { "base": 55, "advances": 0 }
+            },
+            "wounds": { "value": 20, "max": 20 },
+            "fate": { "value": 3, "max": 3 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Webway",
+                "background": "",
+                "role": "Master",
+                "divination": "",
+                "notes": "The commander of a Harlequin troupe, an unparalleled warrior-artist. Traits: Fear (2), Fearless, Holo-field, Unnatural Agility (4). Skills: Acrobatics +30, Athletics +20, Awareness +20, Command +10, Dodge +30, Perform +30. Talents: Ambidextrous, Assassin Strike, Blademaster, Combat Master, Counter-Attack, Lightning Attack, Step Aside, Swift Attack, Two-Weapon Wielder (Melee). Choreographer of War: All Harlequins within 20m gain +10 WS and +10 Dodge. Flip Belt: Ignores terrain and obstacles, may leap up to 6m vertically."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Harlequin's Embrace",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+8", "type": "rending", "bonus": 0 },
+                    "penetration": 12,
+                    "weight": 1,
+                    "qualities": ["Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "good",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Fusion Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 15,
+                    "rof": { "single": true, "semi": 0, "full": 0 },
+                    "damage": { "formula": "2d10+6", "type": "energy", "bonus": 0 },
+                    "penetration": 12,
+                    "weight": 2,
+                    "qualities": ["Melta"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 3, "max": 3 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Death Jester",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 50, "advances": 0 },
+                "bs": { "base": 65, "advances": 0 },
+                "s": { "base": 35, "advances": 0 },
+                "t": { "base": 35, "advances": 0 },
+                "ag": { "base": 60, "advances": 0 },
+                "int": { "base": 45, "advances": 0 },
+                "per": { "base": 55, "advances": 0 },
+                "wp": { "base": 50, "advances": 0 },
+                "fel": { "base": 35, "advances": 0 }
+            },
+            "wounds": { "value": 18, "max": 18 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Webway",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Harlequin heavy weapons specialists and avatars of death. Traits: Fear (2), Fearless, Holo-field, Unnatural Agility (3). Skills: Acrobatics +20, Athletics +10, Awareness +20, Dodge +20. Talents: Deadeye Shot, Marksman, Mighty Shot, Sharpshooter. Death is Not Enough: Killed enemies explode — all within 3m take 1d10+2 E Pen 2. Flip Belt: Ignores terrain and obstacles, may leap up to 6m vertically."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Shrieker Cannon",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 80,
+                    "rof": { "single": true, "semi": 3, "full": 0 },
+                    "damage": { "formula": "1d10+6", "type": "rending", "bonus": 0 },
+                    "penetration": 5,
+                    "weight": 5,
+                    "qualities": ["Reliable", "Tearing", "Toxic (2)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 40, "max": 40 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Shadowseer",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 50, "advances": 0 },
+                "bs": { "base": 45, "advances": 0 },
+                "s": { "base": 30, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 60, "advances": 0 },
+                "int": { "base": 55, "advances": 0 },
+                "per": { "base": 55, "advances": 0 },
+                "wp": { "base": 65, "advances": 0 },
+                "fel": { "base": 50, "advances": 0 }
+            },
+            "wounds": { "value": 16, "max": 16 },
+            "fate": { "value": 2, "max": 2 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 3,
+                "rightArm": 3,
+                "leftArm": 3,
+                "body": 3,
+                "rightLeg": 3,
+                "leftLeg": 3
+            },
+            "details": {
+                "homeworld": "Webway",
+                "background": "",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Harlequin psykers who weave illusions across the battlefield. Traits: Fear (2), Fearless, Holo-field, Psyker (PR 5), Unnatural Agility (3), Unnatural Willpower (3). Skills: Acrobatics +20, Awareness +20, Deceive +20, Dodge +20, Forbidden Lore (Warp) +10, Perform +20, Psyniscience +20. Talents: Warp Sense. Veil of Tears: All enemies within 30m suffer -30 BS against Harlequins. Hallucinogen Grenade Launcher: 20m range, Blast (6), all within must pass Hard WP test or gain 1d5 Insanity and be Stunned for 1 round."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Miststave",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "impact", "bonus": 0 },
+                    "penetration": 2,
+                    "weight": 2,
+                    "qualities": ["Concussive (3)", "Force"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Shuriken Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+4", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 1.5,
+                    "qualities": ["Reliable"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 20, "max": 20 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Scourge",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 40, "advances": 0 },
+                "bs": { "base": 50, "advances": 0 },
+                "s": { "base": 30, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 55, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 50, "advances": 0 },
+                "wp": { "base": 35, "advances": 0 },
+                "fel": { "base": 25, "advances": 0 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Winged Dark Eldar warriors surgically modified for flight. Traits: Dark-sight, Flyer (8), Power from Pain, Soaring, Unnatural Agility (2). Skills: Acrobatics +10, Awareness +20, Dodge +10. Talents: Hard Target. Skyborne Assault: May fire while flying without penalty. Deep Strike: On arrival, enemies must pass Awareness test or be Surprised."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Shardcarbine",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 60,
+                    "rof": { "single": false, "semi": 3, "full": 5 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 2.5,
+                    "qualities": ["Toxic (2)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 60, "max": 60 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Sslyth",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 50, "advances": 0 },
+                "bs": { "base": 35, "advances": 0 },
+                "s": { "base": 55, "advances": 0 },
+                "t": { "base": 50, "advances": 0 },
+                "ag": { "base": 40, "advances": 0 },
+                "int": { "base": 25, "advances": 0 },
+                "per": { "base": 40, "advances": 0 },
+                "wp": { "base": 40, "advances": 0 },
+                "fel": { "base": 15, "advances": 0 }
+            },
+            "wounds": { "value": 25, "max": 25 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 5,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Elite",
+                "divination": "",
+                "notes": "Serpentine xenos mercenaries employed as bodyguards by Dark Eldar Archons. Traits: Fear (1), Multiple Arms (4), Natural Armour (3), Size (Hulking), Unnatural Strength (3), Unnatural Toughness (2). Skills: Athletics +10, Awareness +10, Dodge, Parry +10. Talents: Ambidextrous, Swift Attack, Two-Weapon Wielder (Melee, Ballistic). Bodyguard: May intercept attacks targeting the Archon within 3m."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Splinter Pistol",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 25,
+                    "rof": { "single": true, "semi": 2, "full": 0 },
+                    "damage": { "formula": "1d10+1", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 1,
+                    "qualities": ["Toxic (1)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 40, "max": 40 },
+                    "source": "enemies-without"
+                }
+            },
+            {
+                "name": "Shardnet and Impaler",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "1d10+5", "type": "rending", "bonus": 0 },
+                    "penetration": 4,
+                    "weight": 4,
+                    "qualities": ["Snare (2)", "Tearing"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Grotesque",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 45, "advances": 0 },
+                "bs": { "base": 10, "advances": 0 },
+                "s": { "base": 55, "advances": 0 },
+                "t": { "base": 55, "advances": 0 },
+                "ag": { "base": 25, "advances": 0 },
+                "int": { "base": 10, "advances": 0 },
+                "per": { "base": 25, "advances": 0 },
+                "wp": { "base": 20, "advances": 0 },
+                "fel": { "base": 5, "advances": 0 }
+            },
+            "wounds": { "value": 30, "max": 30 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 5,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Monstrous creations of the Haemonculi, surgically modified beyond recognition. Traits: Berserker, Fear (2), Size (Hulking), Unnatural Strength (4), Unnatural Toughness (4). Skills: Athletics. Talents: Crushing Blow, True Grit. Rampage: Gains +1 attack per round for each enemy killed in the current encounter (max +3). Liquefier Gun: As a Half Action, spray 10m cone, 1d10+4 E Pen 2, ignores armour."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Flesh Gauntlet",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "melee",
+                    "range": 0,
+                    "rof": { "single": false, "semi": 0, "full": 0 },
+                    "damage": { "formula": "2d10+3", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 0,
+                    "qualities": ["Toxic (3)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 0, "max": 0 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Reaver",
+        "type": "npc",
+        "img": "systems/dh2e/icons/items/npc.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "base": 45, "advances": 0 },
+                "bs": { "base": 45, "advances": 0 },
+                "s": { "base": 32, "advances": 0 },
+                "t": { "base": 30, "advances": 0 },
+                "ag": { "base": 55, "advances": 0 },
+                "int": { "base": 35, "advances": 0 },
+                "per": { "base": 45, "advances": 0 },
+                "wp": { "base": 35, "advances": 0 },
+                "fel": { "base": 30, "advances": 0 }
+            },
+            "wounds": { "value": 13, "max": 13 },
+            "fate": { "value": 0, "max": 0 },
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": { "total": 0, "spent": 0 },
+            "aptitudes": [],
+            "armour": {
+                "head": 4,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "details": {
+                "homeworld": "Commorragh",
+                "background": "Kabal of the Crimson Serpent",
+                "role": "Troop",
+                "divination": "",
+                "notes": "Dark Eldar jetbike riders who slash through enemy formations. Traits: Dark-sight, Power from Pain, Unnatural Agility (2). Skills: Acrobatics +10, Awareness +10, Dodge +10, Operate (Aeronautica) +20. Talents: Hard Target. Reaver Jetbike: Tactical Speed 25, AB 12, Armour 12, Integrity 12. Bladevane: When flying over enemies, inflict 1d10+3 R Pen 2 on each enemy passed over."
+            },
+            "source": "enemies-without"
+        },
+        "items": [
+            {
+                "name": "Splinter Rifle",
+                "type": "weapon",
+                "img": "systems/dh2e/icons/items/weapon.svg",
+                "system": {
+                    "class": "ranged",
+                    "range": 80,
+                    "rof": { "single": true, "semi": 3, "full": 0 },
+                    "damage": { "formula": "1d10+2", "type": "rending", "bonus": 0 },
+                    "penetration": 3,
+                    "weight": 3,
+                    "qualities": ["Toxic (1)"],
+                    "equipped": true,
+                    "weaponGroup": "exotic",
+                    "craftsmanship": "common",
+                    "magazine": { "value": 80, "max": 80 },
+                    "source": "enemies-without"
+                }
+            }
+        ]
+    }
+]

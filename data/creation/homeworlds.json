@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Death World",
+        "characteristicBonuses": {
+            "positive": ["ag", "per"],
+            "negative": ["fel"]
+        },
+        "fate": {
+            "threshold": 2,
+            "blessing": 5
+        },
+        "wounds": 9,
+        "aptitude": "Fieldcraft",
+        "homeSkill": "",
+        "traits": [],
+        "bonus": "Survivor's Paranoia",
+        "bonusDescription": "Enemies do not receive the +30 bonus to Weapon Skill tests granted from the Surprised condition when attacking a death world character.",
+        "description": "Death worlds are planets where every aspect of the natural environment is deadly to human life. Carnivorous plants, venomous creatures, toxic atmospheres, extreme temperatures, and constant geological instability are all common features. Those humans who survive on such planets do so through constant vigilance, brutal pragmatism, and the kind of toughness that can only be forged through a lifetime of struggle against an environment that actively seeks to kill them. Death worlders make superlative scouts, survivalists, and warriors, as years of dodging predators and enduring hardship have honed their reflexes to a razor's edge. They tend to be suspicious and taciturn, trusting no one and nothing—traits that serve them well as Acolytes of the Inquisition."
+    },
+    {
+        "name": "Garden World",
+        "characteristicBonuses": {
+            "positive": ["fel", "ag"],
+            "negative": ["t"]
+        },
+        "fate": {
+            "threshold": 2,
+            "blessing": 4
+        },
+        "wounds": 7,
+        "aptitude": "Social",
+        "homeSkill": "",
+        "traits": [],
+        "bonus": "Serenity of the Green",
+        "bonusDescription": "A garden world character halves the duration of any Shock or Trauma result (rounding up), and can remove Insanity points for 50xp per point instead of the usual 100xp.",
+        "description": "Garden worlds are rare paradises amidst the hostile galaxy, planets blessed with temperate climates, abundant natural resources, and breathtaking beauty. Such worlds are prized by the Imperium, often serving as pleasure retreats for the wealthy and powerful, or as symbols of what humanity can achieve when not beset by constant war. The inhabitants of garden worlds tend to be well-educated and socially adept, accustomed to lives of relative comfort and prosperity. Though they may lack the hardened edge of their counterparts from harsher environments, garden worlders possess a natural grace and composure that serves them well in the courts of power and the subtle intrigues of the Inquisition."
+    },
+    {
+        "name": "Research Station",
+        "characteristicBonuses": {
+            "positive": ["int", "per"],
+            "negative": ["fel"]
+        },
+        "fate": {
+            "threshold": 3,
+            "blessing": 8
+        },
+        "wounds": 8,
+        "aptitude": "Knowledge",
+        "homeSkill": "",
+        "traits": [],
+        "bonus": "Pursuit of Data",
+        "bonusDescription": "When a research station character gains Rank 2 in a Scholastic Lore skill, he automatically gains Rank 1 in a thematically related Forbidden Lore skill (subject to GM approval).",
+        "description": "Research stations are outposts dedicated to the pursuit of knowledge, whether it be the study of xenos biology, the analysis of stellar phenomena, or the development of new technologies for the Imperium's war effort. These facilities can range from cramped orbital platforms to sprawling complexes on hostile worlds, but all share a common culture of intellectual inquiry and empirical investigation. Those raised on research stations are often brilliant but socially awkward, more comfortable with data-slates and cogitators than with other humans. Their analytical minds and thirst for understanding make them invaluable to Inquisitors seeking to unravel the mysteries of alien technology or decipher the plans of xenos threats."
+    }
+]

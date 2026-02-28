@@ -1,0 +1,13 @@
+{
+    "name": "dh2e-enemies-without",
+    "version": "0.1.0",
+    "private": true,
+    "description": "DH2E Enemies Without compendium data module",
+    "type": "module",
+    "scripts": {
+        "build": "node scripts/build-packs.mjs"
+    },
+    "dependencies": {
+        "@foundryvtt/foundryvtt-cli": "^1.0.4"
+    }
+}

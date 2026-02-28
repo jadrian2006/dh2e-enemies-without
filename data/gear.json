@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Adaptive Logis-Engine",
+        "type": "gear",
+        "img": "systems/dh2e/icons/items/gear.svg",
+        "system": {
+            "description": "A sophisticated cogitator designed to interface with alien information networks and data systems. When connected to an alien device, the logis-engine analyses its data protocols and adapts accordingly, granting a +20 bonus to Tech-Use tests to access or manipulate alien data systems.",
+            "weight": 4,
+            "quantity": 1,
+            "craftsmanship": "common",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Stasis Cage",
+        "type": "gear",
+        "img": "systems/dh2e/icons/items/gear.svg",
+        "system": {
+            "description": "A portable containment device that generates a localised stasis field, freezing everything within in a state of temporal suspension. Can contain creatures up to Size (7). The cage requires a Full Action to activate and can maintain its field for up to 48 hours before its power cell is depleted.",
+            "weight": 6,
+            "quantity": 1,
+            "craftsmanship": "common",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Clone Field",
+        "type": "gear",
+        "img": "systems/dh2e/icons/items/gear.svg",
+        "system": {
+            "description": "A rare personal defence device of xenos origin that projects multiple holographic duplicates of the wearer, making it extremely difficult to target the real individual. The wearer doubles the degrees of success on successful Dodge tests and gains one additional Evasion per round. The field's power cell lasts for approximately 1 hour of continuous use.",
+            "weight": 0.5,
+            "quantity": 1,
+            "craftsmanship": "common",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Flare Shield",
+        "type": "gear",
+        "img": "systems/dh2e/icons/items/gear.svg",
+        "system": {
+            "description": "A vehicle-mounted energy shield that projects an intense electromagnetic field, disrupting incoming projectiles and energy beams. Provides a protection rating of 25, doubled against attacks with the Blast or Spray qualities. Requires a vehicle-grade power source to operate.",
+            "weight": 3,
+            "quantity": 1,
+            "craftsmanship": "common",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Shimmershield",
+        "type": "gear",
+        "img": "systems/dh2e/icons/items/gear.svg",
+        "system": {
+            "description": "An Eldar defensive device that projects a shimmering energy barrier in a 5 metre radius around the bearer. All allies within the field gain a protection rating of 30 against ranged attacks. The shield is elegant and lightweight, designed to be carried without hindrance.",
+            "weight": 1,
+            "quantity": 1,
+            "craftsmanship": "common",
+            "source": "enemies-without"
+        }
+    },
+    {
+        "name": "Jokaero Weapon Modifications",
+        "type": "gear",
+        "img": "systems/dh2e/icons/items/gear.svg",
+        "system": {
+            "description": "The Jokaero are simian xenos with an instinctive and seemingly effortless talent for technology. They can modify any weapon in ways that defy conventional understanding, often dramatically improving its capabilities. Jokaero modifications are unique and unpredictable—roll 1d5: 1) +2 Damage, 2) +2 Penetration, 3) Reduce weight by half, 4) Add Accurate quality (or +10 to existing), 5) Add Reliable quality (or remove Unreliable). Jokaero modifications cannot be replicated or reverse-engineered.",
+            "weight": 0,
+            "quantity": 1,
+            "craftsmanship": "common",
+            "source": "enemies-without"
+        }
+    }
+]

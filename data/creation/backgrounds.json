@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Heretek",
+        "skills": [
+            "Deceive or Inquiry",
+            "Forbidden Lore (pick one)",
+            "Medicae or Security",
+            "Tech-Use",
+            "Trade (pick one)"
+        ],
+        "talents": [
+            "Weapon Training (Solid Projectile)"
+        ],
+        "equipment": [
+            "Stub revolver with 2 clips (Expander or Man-Stopper)",
+            "Web grenade",
+            "Combi-tool",
+            "Flak cloak",
+            "Filtration plugs",
+            "De-tox",
+            "Dataslate",
+            "Stablight"
+        ],
+        "aptitude": "Finesse or Tech",
+        "bonus": "Master of Hidden Lores",
+        "bonusDescription": "A Heretek character gains a +20 bonus to Tech-Use tests when working with unfamiliar or alien devices, provided he possesses a relevant Forbidden Lore skill.",
+        "description": "Not all followers of the Omnissiah walk the prescribed paths of knowledge laid down by the ancient doctrines of the Adeptus Mechanicus. Some are driven by curiosity or ambition to explore forbidden avenues of techno-arcana, delving into proscribed technologies and xenos devices that their more orthodox brethren would condemn as heretical. These hereteks, as they are known, risk much in their pursuit of understanding—discovery by the Mechanicus means death or worse. Yet their unorthodox expertise makes them invaluable to Inquisitors of the Ordo Xenos, who often require someone capable of analysing alien technology without the constraints of Mechanicus dogma. A heretek's skills with technology are formidable, their knowledge broad and unconventional, though the price of their expertise is often a certain moral flexibility that can unsettle more pious companions."
+    },
+    {
+        "name": "Imperial Navy",
+        "skills": [
+            "Athletics",
+            "Command or Intimidate",
+            "Common Lore (Imperial Navy)",
+            "Navigate (Stellar)",
+            "Operate (Aeronautica or Voidship)"
+        ],
+        "talents": [
+            "Weapon Training (Chain or Shock, Solid Projectile)"
+        ],
+        "equipment": [
+            "Combat shotgun or hand cannon",
+            "Chainsword or shock whip",
+            "Flak coat",
+            "Rebreather",
+            "Micro-bead"
+        ],
+        "aptitude": "Offence or Tech",
+        "bonus": "Close Quarters Discipline",
+        "bonusDescription": "An Imperial Navy character gains +1 degree of success on attacks made at Point-Blank or Short range, and +1 degree of success on melee attacks.",
+        "description": "The Imperial Navy is the sword of the Emperor, its vast fleets of warships carrying His wrath to the enemies of Mankind across the void. Those who serve in the Navy are trained in the harsh disciplines of void warfare, from the lowliest rating to the most exalted flag officer. Life aboard a warship is one of strict hierarchy, constant readiness, and brutal efficiency. Naval personnel are drilled relentlessly in close-quarters combat and shipboard operations, for boarding actions and repelling boarders are common occurrences in void warfare. Those who have served in the Navy and subsequently entered the service of the Inquisition bring with them a wealth of experience in command, navigation, and combat that proves invaluable in the pursuit of the Emperor's enemies."
+    },
+    {
+        "name": "Rogue Trader Fleet",
+        "skills": [
+            "Charm or Scrutiny",
+            "Commerce",
+            "Common Lore (Rogue Traders)",
+            "Linguistics (pick alien language)",
+            "Operate (Surface or Aeronautica)"
+        ],
+        "talents": [
+            "Weapon Training (Las or Solid Projectile, Shock)"
+        ],
+        "equipment": [
+            "Laspistol or autopistol (Compact)",
+            "Shock maul",
+            "Mesh cloak or carapace chestplate",
+            "Auspex",
+            "Chrono"
+        ],
+        "aptitude": "Finesse or Social",
+        "bonus": "Inured to the Xenos",
+        "bonusDescription": "A Rogue Trader Fleet character gains +10 on Fear tests caused by aliens and xenos creatures, and +20 on Interaction skill tests when dealing with alien species.",
+        "description": "Rogue Traders are among the most powerful and influential individuals in the Imperium, granted ancient Warrants of Trade that permit them to explore beyond the borders of Imperial space, make contact with alien civilisations, and exploit whatever resources they discover. The fleets that serve these merchant princes are eclectic assemblages of humanity, drawn from every corner of the Imperium and beyond. Crew members of Rogue Trader fleets are exposed to alien cultures, exotic technologies, and the wonders and horrors of the galaxy's fringes in ways that most Imperial citizens could never imagine. This exposure breeds a certain cosmopolitanism and adaptability that makes former Rogue Trader fleet personnel particularly useful to the Ordo Xenos, as they possess both practical experience with alien species and the social skills to navigate the complex web of relationships between humans and xenos."
+    }
+]
